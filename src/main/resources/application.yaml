@@ -1,14 +1,14 @@
- spring:
+spring:
   application:
     name: organizadorTerritoriosJW
   datasource:
-    url: jdbc:postgresql://localhost:5432/manuos
+    url: jdbc:postgresql://localhost:5432/territorios
     username: postgres
     password: root
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: update
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
